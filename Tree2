@@ -1,0 +1,15 @@
+for _ in range(int(input())):
+
+  n=int(input())
+
+  sticks=list(map(int, input().split(" ")))
+
+  sticks=set(sticks)
+
+  if 0 in sticks:
+
+    print(len(sticks)-1)
+
+  else:
+
+    print(len(sticks))
